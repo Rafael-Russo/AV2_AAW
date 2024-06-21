@@ -56,49 +56,49 @@ Este projeto é uma API REST com autenticação e autorização de usuários usa
 
 - **POST /register**: Registro de novos usuários.
     - Permissão: Aberta a todos.
-<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/register.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/register.PNG"/>
 
 - **GET /swagger-ui/index.html**: Acesso a documentação.
     - Permissão: Aberta a todos.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/swagger.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/swagger.PNG"/>
 
 - **GET /v3/api-docs**: Acesso a documentação.
     - Permissão: Aberta a todos.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/v3.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/v3.PNG"/>
 
 ### Rotas de Usuário
 
 - **POST /login**: Autenticação de usuários, retorna o token do usuário.
     - Permissão: Aberta para usuários que passaram pelo registro.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/login.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/login.PNG"/>
 
 - **GET /info/`token`**: Validação e descriptografia do token gerado em `/login`.
     - Permissão: Aberta para usuários que passaram pelo registro.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/info.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/info.PNG"/>
 
 ### Rotas de Administrador
 
 - **POST /admin/users**: Criação de usuários.
     - Permissão: `ADMIN`.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/admin.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/admin.PNG"/>
 
 ### Rotas de Gerente
 
 - **POST /manage/products**: Criação de produtos.
     - Permissão: `GERENTE`.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/gerente.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/gerente.PNG"/>
 
 ### Rotas de Vendedor
 
 - **POST /seller/orders**: Criação de ordens/pedidos.
     - Permissão: `VENDEDOR`.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/vendedor.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/vendedor.PNG"/>
 
 ### Rotas de Cliente
 
 - **POST /customer/products**: Visualização de produtos.
     - Permissão: `CLIENTE`.
-      <img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/customer.png"/>
+<img src="https://github.com/Rafael-Russo/AV2_AAW/blob/master/imgs/customer.PNG"/>
 
 ## Alterando Configurações de Permissões
 
